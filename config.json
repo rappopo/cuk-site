@@ -2,5 +2,15 @@
   "common": {
     "multiSite": true,
     "skin": false
+  },
+  "cuks": {
+    "model": {
+      "connector": {
+        "default": {
+          "dab": "@rappopo/dab-memory",
+          "opts": {}
+        }
+      }
+    }
   }
 }
