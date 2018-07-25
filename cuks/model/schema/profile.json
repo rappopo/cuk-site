@@ -1,7 +1,26 @@
 {
   "attributes": {
     "domain": {
+      "type": "string",
+      "validator": {
+        "required": true
+      }
+    },
+    "skin": {
+      "type": "string"
+    },
+    "theme": {
       "type": "string"
     }
+  },
+  "indexes": {
+    "uniq": {
+      "column": "domain",
+      "unique": true
+    }
+  },
+  "behavior": {
+    "createdAt": "created_at",
+    "updatedAt": "updated_at"
   }
 }
