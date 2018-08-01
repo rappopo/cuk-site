@@ -1,5 +1,5 @@
 [{
   "domain": "localhost",
-  "skin": "bootswatch",
-  "theme": "journalx"
+  "skin": "bootstrap",
+  "theme": "bootswatch:minty"
 }]
