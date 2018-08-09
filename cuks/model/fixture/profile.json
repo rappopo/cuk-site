@@ -1,5 +1,5 @@
 [{
   "domain": "localhost",
   "skin": "bootstrap",
-  "theme": "bootswatch:minty"
+  "theme": null
 }]
