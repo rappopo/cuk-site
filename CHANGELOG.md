@@ -1,5 +1,10 @@
 ## Changelog
 
+### 0.0.4
+
+- Change site domain as site code
+- Use site domain as true domain
+
 ### 0.0.3
 
 - Adding README.md, LICENSE.md & CHANGELOG.md

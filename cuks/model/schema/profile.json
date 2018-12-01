@@ -1,10 +1,13 @@
 {
   "attributes": {
-    "domain": {
+    "code": {
       "type": "string",
       "validator": {
         "required": true
       }
+    },
+    "domain": {
+      "type": "string"
     },
     "skin": {
       "type": "string"
@@ -14,7 +17,11 @@
     }
   },
   "indexes": {
-    "uniq": {
+    "uniq_code": {
+      "column": "code",
+      "unique": true
+    },
+    "uniq_domain": {
       "column": "domain",
       "unique": true
     }
