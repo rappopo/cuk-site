@@ -1,5 +1,5 @@
 [{
-  "code": "*",
+  "code": "localhost",
   "domain": "localhost",
   "skin": "bootstrap",
   "theme": null
