@@ -1,6 +1,17 @@
 [{
-  "code": "localhost",
+  "id": "default",
   "domain": "localhost",
   "skin": "bootstrap",
-  "theme": null
+  "name": "Default Website",
+  "pic_name": "Webmaster",
+  "pic_email": "webmaster@localhost.localdomain",
+  "theme": null,
+  "active": true,
+  "config": {
+    "test": [{
+      "id": "one"
+    }, {
+      "id": "two"
+    }]
+  }
 }]

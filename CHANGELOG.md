@@ -1,5 +1,9 @@
 ## Changelog
 
+### 0.0.6
+
+- Change site.code to site.id
+
 ### 0.0.5
 
 - Breaking change: config root no longer use common & cuks.

@@ -1,26 +1,45 @@
 {
+  "srcAttribIdType": "string",
   "attributes": {
-    "code": {
+    "name": {
+      "type": "string",
+      "validator": {
+        "required": true
+      }
+   },
+    "pic_name": {
       "type": "string",
       "validator": {
         "required": true
       }
     },
+    "pic_email": {
+      "type": "string",
+      "validator": {
+        "required": true,
+        "isEmail": true
+      }
+    },
     "domain": {
-      "type": "string"
+      "type": "string",
+      "validator": {
+        "required": true
+      }
     },
     "skin": {
       "type": "string"
     },
     "theme": {
       "type": "string"
+    },
+    "config": {
+      "type": "object"
+    },
+    "active": {
+      "type": "boolean"
     }
   },
   "indexes": {
-    "uniq_code": {
-      "column": "code",
-      "unique": true
-    },
     "uniq_domain": {
       "column": "domain",
       "unique": true
